@@ -234,8 +234,6 @@ body {
 }
 @media (max-width: 505px) {
     .create-login {
-        flex-direction: column;
-        text-align: center;
         font-size: 13px;
         padding: 16px;
     }
@@ -243,7 +241,16 @@ body {
         font-size: 13px;
     }
 }
-@media (min-width: 319px) and (max-width: 376px) {
+@media (min-width: 319px) and (max-width: 460px) {
+    .informations {
+        width: 100vw;
+    }
+    .form form {
+        width: 70%;
+    }
+    .form button {
+        width: 40%;
+    }
     .icon {
         padding: 3px;
         width: 12px;
