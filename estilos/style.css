@@ -198,15 +198,22 @@ body {
     .form {
         margin-left: 15px;
     }
+    .create-login {
+        margin-left: 15px;
+    }
     .line {
         width: 90px;
     }
+
 }
 @media (max-width: 875px) {
     .container{
         width: 100%;
     }
     .form {
+        margin-left: 0;
+    }
+    .create-login {
         margin-left: 0;
     }
     .phone {
@@ -219,10 +226,33 @@ body {
         font-size: 10px;
     }
 }
-@media (min-width: 320px) and (max-width: 514px) {
+@media (min-width: 377px) and (max-width: 514px) {
     .line{
         width: 65px;
     }
    
+}
+@media (max-width: 505px) {
+    .create-login {
+        flex-direction: column;
+        text-align: center;
+        font-size: 13px;
+        padding: 16px;
+    }
+    .create-login a {
+        font-size: 13px;
+    }
+}
+@media (min-width: 319px) and (max-width: 376px) {
+    .icon {
+        padding: 3px;
+        width: 12px;
+    }
+    .flex h4 {
+        font-size: 12px;
+    }
+    .line {
+        width: 45px;
+    }
 }
 
