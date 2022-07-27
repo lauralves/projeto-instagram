@@ -224,9 +224,7 @@ body {
     .container {
         justify-content: center;
     }
-    .form form input {
-        font-size: 10px;
-    }
+    
 }
 @media (min-width: 377px) and (max-width: 514px) {
     .line{
@@ -243,7 +241,7 @@ body {
         font-size: 13px;
     }
 }
-@media (min-width: 319px) and (max-width: 460px) {
+@media (min-width: 300px) and (max-width: 480px) {
     .form {
         background-color: transparent;
         border: none;
