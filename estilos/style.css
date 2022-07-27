@@ -109,6 +109,7 @@ body {
 }
 .flex h4 {
     color: #385185;
+    cursor: pointer;
 }
 .forget-pass{
     color: #385185;
@@ -243,6 +244,14 @@ body {
     }
 }
 @media (min-width: 319px) and (max-width: 460px) {
+    .form {
+        background-color: transparent;
+        border: none;
+    }
+    .create-login {
+        background-color:transparent;
+        border: 0;
+    }
     .informations {
         width: 100vw;
     }
